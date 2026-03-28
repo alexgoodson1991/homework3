@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-bg: #1e2d45;
+  --header-bg2: #2c3e57;
+  --accent: #4a90d9;
+  --accent-hover: #6aaee8;
+  --body-bg: #f0f2f5;
+  --card-bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #555e6e;
+  --text-muted: #8892a0;
+  --border: #dde3ec;
+  --star: #f5a623;
+  --shadow: 0 4px 20px rgba(0,0,0,0.10);
+  --shadow-hover: 0 12px 36px rgba(0,0,0,0.18);
+  --radius: 14px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--body-bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
